@@ -27,7 +27,7 @@ Make sure you have the following software installed on your machine:
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/isaacprogi/video-merge-frontend.git
+    git clone https://github.com/Isaacprogi/video-merge-frontend.git
     cd video-merge
     ```
 
