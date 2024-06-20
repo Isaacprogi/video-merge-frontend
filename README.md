@@ -1,30 +1,59 @@
-# React + TypeScript + Vite
+# Video Merge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+Video Merge is a web application that allows users to merge two video files into one. Users can upload two video files, select the desired resolution, and download the merged video. This application is built using React and Vite for a fast and modern development experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Upload two video files for merging.
+- Select from multiple resolution options (Standard, SD, HD, Full HD).
+- Download the merged video file.
+- Responsive design with a modern user interface.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Getting Started
 
-- Configure the top-level `parserOptions` property like this:
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+### Prerequisites
+
+Make sure you have the following software installed on your machine:
+
+- [Node.js](https://nodejs.org/) (version 14 or later)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/isaacprogi/video-merge-frontend.git
+    cd video-merge
+    ```
+
+2. **Install dependencies:**
+
+    If you are using npm:
+
+    ```bash
+    npm install
+    ```
+
+    Or if you are using yarn:
+
+    ```bash
+    yarn install
+    ```
+
+### Running the Application
+
+To start the development server, run:
+
+```bash
+npm run dev
 ```
+Navigate to 
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+```bash
+http://localhost:5173
+```
